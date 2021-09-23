@@ -1,20 +1,23 @@
 # Madlibs Activity
-For this activity, you will use what you've learned about git to work collaboratively as a classroom to fill out a couple Madlibs stories.
+For this activity, you will use what you've learned about git to work collaboratively.
+We're going to write some funny [Madlibs](https://en.wikipedia.org/wiki/Mad_Libs)-style stories.
 
 ## How To Setup This Activity
 
-1) Form a group with your neighbors. You should choose one person whose computer you will use. 
+1) Form a group with your neighbors. You should choose one person whose computer you will use. Only
+one person needs to follow these instructions (but all should read them 🤣)
 
-2) Make a Github account if you haven't already got one. This should be a personal account for the person whose computer is being used. We'll be using GitHub in our homework assignments this semester. You don't have to use identifying information when you create your account.
-
-3) Fork the starter repository on Github. Forking means to make a copy of the code but attach it to your own Github repository so that you can make changes.
+2) Fork this starter repository on GitHub. Forking means to make a copy of the code but attach it to your own GitHub repository so that you can make changes.
 Technically you are "cloning" the starter repo. GitHub calls this "forking" because they add some other
 bells and whistles on top. You should see a grey button at the top that says "fork"---that is what you want. If you need more information, look at [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-4) Clone the repo to your development environment: your computer or Cloud9, if the instructor
-set up a Cloud9 account for you. You can request one [here](https://forms.gle/trDFWsfgGZnCVtsy6).
+4) Clone the repo to your development environment: your computer or Cloud9. Typically to clone
+you'd do something like `git clone YOUR-REPO-ADDRESS-HERE`. It's best to use the "ssh" clone URL
+instead of the "https" URL so that you don't have to keep typing your password. That will only
+be possible if you've got your ssh keys set up with GitHub already, which most people
+did Tuesday in class.
  
-5) Open the `index.html` file to see the app working on your computer. 
+5) "Preview" the `index.html` file in Cloud9 to see the app working on your computer. 
 
 6) Take a look around at the files. Familiarize yourself where everything lives. 
 
@@ -22,17 +25,17 @@ set up a Cloud9 account for you. You can request one [here](https://forms.gle/tr
 assign you to one of these. Checkout a new branch with a good name before you do your work. This will be a command like
 
 ```
-git checkout -b kyle-new-verbs
+git checkout -b bald-chicken-new-verbs
 ```
 
-Here, I named my branch "kyle-new-verbs". You should name yours something *different*, no spaces. E.g.
-your branch name might be "jane-new-stories" or "rad-verbs-for-class-by-rachel".
+Here, I named my branch "bald-chicken-new-verbs". You should name yours something *different*, no spaces. E.g.
+your branch name might be "fire-lion-new-stories" or "rad-verbs-for-class-by-sleek-deer".
 
 
 7) Create a new file. You can also edit existing files, but that will make our merging harder! If you want to make a new file of verbs, you might make a file at
-`/js/verbs/kyle-new-verbs.js` and in that file, add new verbs.
+`/js/verbs/bald-chicken.js` and in that file, add new verbs.
 
-You should choose a name other than "kyle-new-verbs.js". 
+You should choose a name other than "bald-chicken.js". 
 
 8) Check your code works. Did you break the app? No? Great!
 
