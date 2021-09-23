@@ -1,5 +1,11 @@
 nouns = nouns.concat([
     'man',
     'bear',
-    'pig'
+    'pig',
+    'clown',
+    'Kyle',
+    'flower',
+    'SOM',
+    'Yale',
+    'I'
 ]);
